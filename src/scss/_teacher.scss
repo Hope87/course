@@ -1,0 +1,58 @@
+.teacher {
+  margin-top: 160px;
+
+  &__text {
+    text-align: center;
+
+    h2 {
+      color: #252525;
+      font-family: 'GT Eesti Pro Display';
+      font-size: 4em;
+      font-weight: bold;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 36.47px;
+      text-align: center;
+    }
+
+    p {
+      font-family: 'GT Eesti Pro Display';
+      font-size: 2em;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 90px;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+      p {
+        margin-bottom: 0;
+        margin-left: 20px;
+      }
+
+      &--1 {
+        font-family: 'Muller';
+        font-size: 1.4em;
+        letter-spacing: normal;
+        line-height: 15.81px;
+        text-align: left;
+      }
+
+      &--2 {
+        font-family: 'MullerLight';
+        font-weight: 100;
+        letter-spacing: 0.87px;
+        line-height: normal;
+      }
+    }
+  }
+}
